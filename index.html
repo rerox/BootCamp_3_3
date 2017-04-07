@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSocket</title>
+    <link rel="stylesheet" href="_css/bootstrap.css">
+    <link rel="stylesheet" href="_css/_css.css">
+</head>
+<body>
+<h2 class="text-center">Witaj na Real-Chat!</h2>
+
+
+<div id="chat" class="col-xs-offset-3 col-xs-6">
+    <div class="form-inline">
+        <div class="form-group">
+            <input type="text" class="form-control" id="yourName" placeholder="Podaj swoje imię">
+        </div>
+        <button class="btn btn-primary" id="join">Dołącz</button>
+    </div>
+    <hr>
+
+    <div id="chatWindow">
+        <!--<div class="chatRow">-->
+            <!--<span class="time">20:29:46</span>-->
+            <!--<span class="name">Mirek podłączył się do czatu!</span>-->
+        <!--</div>-->
+
+        <!--<div class="chatRow">-->
+            <!--<span class="time">20:30:11</span>-->
+            <!--<span class="name">Mirek</span>-->
+            <!--<span class="message">Hej, co tam?</span>-->
+        <!--</div>-->
+
+        <!--<div class="chatWindow">-->
+            <!--<span class="time">20:30:11</span>-->
+            <!--<span class="name">Kamil</span>-->
+            <!--<span class="message">No hej, co tam?</span>-->
+        <!--</div>-->
+    </div>
+    <hr>
+
+    <div class="form-group">
+        <textarea class="form-control" rows="3" id="message" placeholder="Wiadomość..."> </textarea>
+    </div>
+
+    <button class="btn btn-primary pull-right" id="submit" disabled>Wyślij</button>
+</div>
+<script src="_js/jquery.js"></script>
+<script src="_js/scripts.js"></script>
+</body>
+</html>
